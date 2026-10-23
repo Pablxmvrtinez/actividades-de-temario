@@ -1,0 +1,7 @@
+print("porfavor introduzca el precio de el producto que desea comprar")
+precio = float(input())
+print("perfecto a continuacion hare el iva")
+print(precio * 0.21)
+print("perfecto ahora que tenemos el iva calcularemos cuanto seria el precio total")
+print(precio * 1.21)
+input()

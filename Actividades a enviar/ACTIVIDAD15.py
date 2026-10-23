@@ -1,0 +1,8 @@
+print("bienvenido a la calculadora de propinas a continuacion se le pedira el precio de el producto pagado")
+producto = int(input())
+print("ahora indique el porcentaje a pagar de propina")
+propina = int(input())
+print("perfecto entonces su total a pagar incluyendo propina seria")
+total = producto * propina / 100
+print(total)
+input()

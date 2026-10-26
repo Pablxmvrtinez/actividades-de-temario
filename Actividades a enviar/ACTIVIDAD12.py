@@ -11,3 +11,5 @@ print("procedemos con el calculo")
 
 calculo = (celsius * 1.8) + 32
 
+print(calculo)
+input()

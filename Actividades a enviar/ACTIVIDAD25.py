@@ -1,0 +1,25 @@
+#primero pedimos los datos y hacemos los calculos
+print("vamos a generar tu factura primero pon nombre")
+nombre = input()
+print("ahora el producto")
+producto = input()
+print("perfecto sigamos con la cantidad de productos")
+cantidad = int(input())
+print("por ultimo el precio del producto")
+precio = float(input())
+
+total = precio * cantidad
+
+print("perfecto entonces a continuacion te dare tu factura")
+print("----------------------")
+print("----------------------")
+print("----------------------")
+print("-------FACTURA--------")
+print("----------------------")
+print("----------------------")
+print("NOMBRE: " ,nombre,)
+print("SU PRODUCTO", producto)
+print("la cantidad de productos", cantidad)
+print("el precio de cada uno de su", producto, "es", precio)
+print("en total seria", total)
+input()
